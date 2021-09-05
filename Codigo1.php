@@ -26,9 +26,9 @@ obtener aleatoriamente diversos apellidos-->
         $Apellido=array("Garcia", "Rodriguez", "Fernandez", "Lopez", "Sanchez", "Gomez", "Perez", "Gonzales", "Hernandez", "Martinez", "Rossi", "Mancini", "Ferrari","Esposito", "Bianchi", "Romano", "Colombo", "Ricci", "Marino", "Greco", "Muller", "Schmidt", "Schneider", "Fischer", "Weber", "Meyer", "Wagner", "Becker", "Schulz", "Hoffmann",
              "Petit", "Laurent", "Moreau", "Flambeu", "Rousseau", "Blanc", "Matheiu", "Clement", "Monet", "Francois");
          $num = $_POST['num1'];
-         if ($num < 1) {echo "Error";}
+         if ($num < 1) {echo "Error, vuelva a intentar";}
 
-        	else { if ($num > 4) {echo "Error";} 
+        	else { if ($num > 4) {echo "Error, vuelva a intentar";} 
                    else {
 	  	                  $s0 = rand(0,9); $p0 = (10 * ( $num - 1) ) + $s0 ;
 	                       echo  $Apellido[$p0];
