@@ -27,12 +27,9 @@ obtener aleatoriamente diversos apellidos-->
              "Petit", "Laurent", "Moreau", "Flambeu", "Rousseau", "Blanc", "Matheiu", "Clement", "Monet", "Francois");
          $num = $_POST['num1'];
          if ($num < 1) {echo "Error, vuelva a intentar";}
-
-        	else { if ($num > 4) {echo "Error, vuelva a intentar";} 
-                   else {
-	  	                  $s0 = rand(0,9); $p0 = (10 * ( $num - 1) ) + $s0 ;
+            	else { if ($num > 4) {echo "Error, vuelva a intentar";} 
+                   else {$s0 = rand(0,9); $p0 = (10 * ( $num - 1) ) + $s0 ;
 	                       echo  $Apellido[$p0];
-	    }
-	}
-}
+	    
+	    }}}
 ?>
