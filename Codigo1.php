@@ -20,3 +20,10 @@ obtener aleatoriamente diversos apellidos-->
 </form>
 </body>
 </html>
+<?php
+	if($_POST)
+        {	
+        $Apellido=array("Garcia", "Rodriguez", "Fernandez", "Lopez", "Sanchez", "Gomez", "Perez", "Gonzales", "Hernandez", "Martinez", "Rossi", "Mancini", "Ferrari","Esposito", "Bianchi", "Romano", "Colombo", "Ricci", "Marino", "Greco", "Muller", "Schmidt", "Schneider", "Fischer", "Weber", "Meyer", "Wagner", "Becker", "Schulz", "Hoffmann",
+             "Petit", "Laurent", "Moreau", "Flambeu", "Rousseau", "Blanc", "Matheiu", "Clement", "Monet", "Francois");
+    }
+?>
