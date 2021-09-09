@@ -3,7 +3,7 @@
 Desarrolle una pagina en la cual se puedan 
 obtener aleatoriamente diversos apellidos-->
 
-<!-- Vamos a agregar una mejora a la página del Integrante 1, a través de la introduccion de nombres aleatorios . Firma: Integrante 2 -->
+<!-- Vamos a agregar una mejora a la página del Integrante 1, a través de la introduccion de nombres aleatorios . Autor: Integrante 2 -->
 
 <!DOCTYPE HTML>
 <html lang="es-ES">
@@ -40,3 +40,5 @@ obtener aleatoriamente diversos apellidos-->
 	                       echo  $Nombres[$p1] ." " . $Apellido[$p0];
 	    }}}
 ?>
+
+<!-- Doy por finalizado la mejor. Autor: Integrante 2 -->
