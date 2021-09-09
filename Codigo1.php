@@ -3,14 +3,16 @@
 Desarrolle una pagina en la cual se puedan 
 obtener aleatoriamente diversos apellidos-->
 
+<!-- Vamos a agregar una mejora a la página del Integrante 1, a través de la introduccion de nombres aleatorios . Firma: Integrante 2 -->
+
 <!DOCTYPE HTML>
 <html lang="es-ES">
 <head>
 	<meta charset="UTF-8">
-	<title>Apellidos Europeos</title>
+	<title>Apellidos y Nombres Europeos</title>
 </head>
 <body>
-<H3>Generador Aleatorio de Apellidos Europeos</H3>  <H1>Ingrese el numero segun el pais:</H1>
+<H3>Generador Aleatorio de Apellidos y Nombres Europeos</H3>  <H1>Ingrese el numero según el país:</H1>
 <form action="Codigo1.php" method="POST">
 	<table>
 	<tr> <td>1: Espana | 2: Italia | 3: Alemania | 4: Francia</td> </tr>
